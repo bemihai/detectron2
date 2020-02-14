@@ -1,3 +1,4 @@
+
 ### Requirements
 - Python >= 3.6(Conda)
 - PyTorch 1.3
@@ -8,6 +9,12 @@
 - pycocotools: `pip install cython; pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI`
 - VS2019(no test in older version)/CUDA10.1(no test in older version)
 
+#### Windows build Feb 2020
+- Python 3.6.8
+- torch 1.3 + torchvision 0.4.0: ``pip install torch==1.3.0 torchvision==0.4.0 -f https://download.pytorch.org/whl/torch_stable.html``
+- Visual Studio 2019 Community (C++ build tools)
+- CUDA 10.2
+ 
 ### several files must be changed by manually.
 ```
 file1: 
