@@ -6,8 +6,8 @@ import torch
 from detectron2.layers.nms import batched_nms
 from detectron2.structures.instances import Instances
 
-from densepose.vis.bounding_box import BoundingBoxVisualizer, ScoredBoundingBoxVisualizer
-from densepose.vis.densepose import DensePoseResultsVisualizer
+from projects.DensePose.densepose.vis.bounding_box import BoundingBoxVisualizer, ScoredBoundingBoxVisualizer
+from projects.DensePose.densepose.vis.densepose import DensePoseResultsVisualizer
 
 from .base import CompoundVisualizer
 
